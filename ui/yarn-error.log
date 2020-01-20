@@ -14,17 +14,12 @@ Platform:
   win32 x64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@monorepo%2fglobalcss: Not found
-      at Request.params.callback [as _callback] (C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:61073:18)
-      at Request.self.callback (C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:120166:22)
-      at Request.emit (events.js:210:5)
-      at Request.<anonymous> (C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:121138:10)
-      at Request.emit (events.js:210:5)
-      at IncomingMessage.<anonymous> (C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:121060:12)
-      at Object.onceWrapper (events.js:299:28)
-      at IncomingMessage.emit (events.js:215:7)
-      at endReadableNT (_stream_readable.js:1183:12)
-      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+  SyntaxError: C:\Users\shreyvijayvargiya\Desktop\uiReactLibrary\ui\package.json: Unexpected token } in JSON at position 404
+      at JSON.parse (<anonymous>)
+      at C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:1136:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:98:30)
+      at C:\Users\shreyvijayvargiya\AppData\Roaming\npm\node_modules\yarn\lib\cli.js:109:13
 
 npm manifest: 
   {
@@ -44,9 +39,7 @@ npm manifest:
       "react-dom": "^16.12.0",
       "styled-components": "^5.0.0"
     },
-    "devDependencies": {
-  	  "@monorepo/globalcss": "1.0.0"
-    }
+    
   }
 
 yarn manifest: 
