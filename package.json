@@ -1,0 +1,23 @@
+{
+  "name": "reactuilibrary",
+  "version": "1.0.0",
+  "description": "React UI Library",
+  "main": "pages/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shreyvijayvargiya/uiReactLibrary.git"
+  },
+  "keywords": [
+    "React",
+    "Library"
+  ],
+  "author": "shrey vijayvargiya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shreyvijayvargiya/uiReactLibrary/issues"
+  },
+  "homepage": "https://github.com/shreyvijayvargiya/uiReactLibrary#readme"
+}

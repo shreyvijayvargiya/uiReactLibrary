@@ -1,0 +1,10 @@
+{
+  "name": "@monorepo/globalcss",
+  "version": "1.0.0",
+  "description": "Global CSS ",
+  "main": "globalcss.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "shrey vijayvargiya"
+}
