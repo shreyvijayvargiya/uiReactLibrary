@@ -23,6 +23,9 @@
   },
   "homepage": "https://github.com/shreyvijayvargiya/uiReactLibrary#readme",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
     "babel-loader": "^8.0.6",
     "styled-components": "^5.0.0"
   },

@@ -5,7 +5,12 @@ import { Navbar } from '../../packages/components';
 const DemoNavbar = () => {
 	return (
 		<Container>
-			<Navbar />
+			<Navbar themeType="primary" heading="Heading">
+				<p>About</p>
+				<p>Gallery</p>
+				<p>Blog</p>
+				<p>Profile</p>
+			</Navbar>
 		</Container>
 	 )
 }
