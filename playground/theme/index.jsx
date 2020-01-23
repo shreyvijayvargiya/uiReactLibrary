@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
-import { Card } from '../../index';
+import { Card } from '../../packages/ui';
 
 const Theme = () => {
 	const colors = ["primary", "secondary", 'error', 'warning', 'success', 'background','headerBackground' ];

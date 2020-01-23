@@ -1,7 +1,7 @@
 import React from 'react';
 import { InputContainer } from './styles';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../../../theme/theme';
+import { theme } from '../../theme/theme';
 
 const Input = ( { placeholder, width, height, inputType, themeType, value } ) => {
 return (

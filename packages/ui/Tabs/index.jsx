@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
-import { Grid, Box, Card } from '../../index';
+import { Grid, Box, Card } from '../index';
 
 
 const Tab = ({ children }) => {

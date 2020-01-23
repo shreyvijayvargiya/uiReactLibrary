@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Header, Body, Footer, Children } from './styles';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../../../theme/theme';
+import { theme } from '../../theme/theme';
 
 const Card = ({ header, body, footer, width, children, themeType, headerFooterThemeType }) => {
 	return (

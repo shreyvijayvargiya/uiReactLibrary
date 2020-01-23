@@ -1,7 +1,7 @@
 import React from 'react';
 import { CheckboxContainer, Container, Box } from './styles';
 import { ThemeProvider } from 'styled-components';
-import { theme } from '../../../theme/theme'; 
+import { theme } from '../../theme/theme'; 
 
 
 const Checkbox = ( { label, onChange, width, height, themeType   } ) => {
