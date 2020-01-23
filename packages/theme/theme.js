@@ -7,6 +7,7 @@ export const theme = {
 	success: "#4caf50",
 	border: "#e2e2e2",
 	background: '#f5f5f5',
+	default: '#f5f5f5',
 	header: '#dae9ff',
 	footer: '#dae9ff',
 	headerBackground: '#fffcfc',
