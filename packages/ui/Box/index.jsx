@@ -6,7 +6,7 @@ import { theme } from '../../theme/theme'
 const Box = ({ background, border, width, children }) => {
 	return (
 		<ThemeProvider theme={ theme }>
-			<Container border={border} background={background} width={width} >
+			<Container border={border} background={background} width={width}>
 				<div>{children}</div>
 			</Container>
 		</ThemeProvider>

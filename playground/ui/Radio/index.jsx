@@ -4,8 +4,9 @@ import { Radio } from '../../../packages/ui';
 const DemoRadio = () => {
 return (
 	<div>
-		<Radio />
+		<Radio height="4em" label="Radio" />
 	</div>
-  )
-}
+  );
+};
+
 export default DemoRadio ;
