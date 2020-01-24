@@ -10,7 +10,7 @@ export const Container = styled.div`
 		}
 		return'white';
 	}};
-	box-shadow: 10px 10px 4px ${props => props.theme.background};
+	
 	border-radius: 4px;
 	background: ${(props) => {
 		if(props.buttonType === 'link'){

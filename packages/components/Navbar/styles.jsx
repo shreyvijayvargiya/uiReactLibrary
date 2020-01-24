@@ -16,18 +16,17 @@ export const Container = styled.div`
 	@media screen and (max-width: 600px){
 		.navIcon {
 			display: block;
-			position: fixed;
+			position: absolute;
 			right: 4px;
-			top: 30px;
+			top: 20px;
 			bottom: 30px;
 		}
-		
 		margin: 0px;
 		height: 60px;
 	};
 	.responsiveChildren {
 		border: 2px solid ${props => props.theme.heading};
-		position: fixed;
+		position: absolute;
 		background: ${props => props.themeType ? props.theme[props.themeType]: props.theme.background};
 		top: 50px;
 		right: 10px;

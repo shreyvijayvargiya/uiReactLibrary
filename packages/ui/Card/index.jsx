@@ -3,10 +3,10 @@ import { Container, Header, Body, Footer, Children } from './styles';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../../theme/theme';
 
-const Card = ({ header, body, footer, width, children, themeType, headerFooterThemeType }) => {
+const Card = ({ header, body, footer, width, children, themeType, headerFooterThemeType, height }) => {
 	return (
 		<ThemeProvider theme={ theme }>
-			<Container width={width} themeType={themeType} borderRequired={children ? false: true}>
+			<Container width={width} height={height} themeType={themeType} borderRequired={children ? false: true}>
 				{header ? <Header headerFooterThemeType={headerFooterThemeType}>{header}</Header>: null}
 				{body ? <Body>{body}</Body>: null}
 				{footer ? <Footer headerFooterThemeType={headerFooterThemeType}>{footer}</Footer>: null}

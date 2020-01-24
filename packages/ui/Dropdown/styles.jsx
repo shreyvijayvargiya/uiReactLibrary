@@ -21,6 +21,7 @@ export const Children = styled.div`
 	max-width: 100px;
 	width: fit-content;
 	height: fit-content;
+	overflow: auto;
 	box-shadow: 10px 10px 4px ${props => props.theme.background};
 	z-index: 10;
 	background: ${props => props.theme.background};

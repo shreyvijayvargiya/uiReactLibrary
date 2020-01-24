@@ -3,9 +3,9 @@ import styled from 'styled-components';
 export const Container = styled.div`
 	box-shadow: 20px 20px 4px ${props => props.theme.background};
 	z-index: 10;
-	width: ${props => props.width ? (props.width): null}%;
+	width: ${props => props.width ? (props.width): null};
 	word-wrap: break-word;
-	height: 100%;
+	height: ${props => props.height ? (props.height): 'fit-content'};
 	border-radius: 8px;
 	margin: auto;
 	text-align: center;

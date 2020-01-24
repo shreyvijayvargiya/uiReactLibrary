@@ -12,6 +12,10 @@ export const Container = styled.div `
 		const breakArray = props.layout.split(" ");
 		return `${breakArray[0]}`;
 	}};
+	flex-direction: ${( props ) => {
+		const breakArray = props.layout.split(" ");
+		return breakArray[1];
+	}};
 	justify-content: ${( props ) => {
 		const breakArray = props.layout.split(" ");
 		return breakArray[2];
@@ -20,8 +24,7 @@ export const Container = styled.div `
 		const breakArray = props.layout.split(" ");
 		return breakArray[3];
 	}};
-	flex-direction: ${( props ) => {
-		const breakArray = props.layout.split(" ");
-		return breakArray[1];
-	}};
+	&  > * {
+		margin: 4px;
+	}
 `;
