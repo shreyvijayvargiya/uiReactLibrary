@@ -5,11 +5,11 @@ const DemoModal = () => {
 	const [show, setShow ] = useState(false)
 	return (
 		<div>
+			<button onClick={() => setShow(true)}>Modal</button>
 			<Modal show={show} setShow={setShow}>
-				<p>Hi I am Modal Chidlren</p>
+				<p>Hi I am Modal</p>
 				<p>You are looking to Modal children</p>
 			</Modal>
-			<button onClick={() => setShow(true)}>Modal</button>
 		</div>
 	);
 };
