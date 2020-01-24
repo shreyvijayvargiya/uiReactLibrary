@@ -7,3 +7,4 @@ export { default as DemoInput } from './Input';
 export { default as DemoRadio } from './Radio';
 export { default as DemoTabs } from './Tabs';
 export { default as DemoAvatar } from './Avatar';
+export { default as DemoDropdown } from './Dropdown';
