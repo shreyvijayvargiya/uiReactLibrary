@@ -10,7 +10,7 @@ export const Container = styled.div`
 		}
 		return'white';
 	}};
-	
+	cursor: pointer;
 	border-radius: 4px;
 	background: ${(props) => {
 		if(props.buttonType === 'link'){

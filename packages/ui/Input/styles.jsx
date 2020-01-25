@@ -12,6 +12,7 @@ export const InputContainer = styled.input`
 		}
 		return `1px solid ${props.theme[props.themeType]}`;
 	}};
+	disabled: ${props => props.disabled ? true: false};
 	border-bottom: ${(props) => {
 		if(props.inputType === 'underline'){
 			return `1.2px solid ${props.theme[props.themeType]}`

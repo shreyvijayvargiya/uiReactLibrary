@@ -12,12 +12,12 @@ export const Container = styled.div`
 		right: 10px;
 		top: 5px;
 	}
-
+	cursor: pointer;
 `;
 
 export const SidebarContainer = styled.div`
 	width: ${(props) =>props.sidebarWidth === 0 ?  0: props.sidebarWidth }px;
-	height: ${props => props.height};
+	height: ${props => props.height ? props.height : 'fit-content'};
 	margin: 4px;
 	overflow: hidden;
 	position: absolute;
@@ -25,7 +25,7 @@ export const SidebarContainer = styled.div`
 	left: -10px;
 	z-index: 1;
 	transition: 0.5s;
-	background: ${props => props.theme[props.themeType]};
+	background: ${props => props.themeType ? props.theme[props.themeType]: props.theme.background};
 	z-index: 1;
 	& > * {
 		padding: 10px;

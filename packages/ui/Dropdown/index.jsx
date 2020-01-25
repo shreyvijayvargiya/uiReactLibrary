@@ -3,15 +3,15 @@ import { Container, Header, Children } from './styles';
 import { theme } from '../../theme/theme';
 import { ThemeProvider } from 'styled-components';
 
-const Dropdown = ( { header , children }) => {
+const Dropdown = ( { header , children, themeType }) => {
 	const [show, setShow ] = useState(false);
 	return (
 		<ThemeProvider theme={theme}>
-			<Container header={header} onClick={() => setShow(!show)}>
-				<Header>{header}</Header>
+			<Container header={header} onClick={() => setShow(!show)} themeType={themeType}>
+				<Header themeType={themeType}>{header}</Header>
 				{show ? 
 				(
-					<Children>
+					<Children themeType={themeType}>
 						{children}	
 					</Children>
 				): null}

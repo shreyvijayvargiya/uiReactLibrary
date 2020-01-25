@@ -3,7 +3,7 @@ import { InputContainer } from './styles';
 import { ThemeProvider } from 'styled-components';
 import { theme } from '../../theme/theme';
 
-const Input = ( { placeholder, width, height, inputType, themeType, value } ) => {
+const Input = ( { placeholder, width, height, inputType, themeType, value, disabled } ) => {
 return (
 	<ThemeProvider theme={ theme }>
 		<InputContainer 
@@ -13,6 +13,7 @@ return (
 			width={width} 
 			height={height} 
 			value={value ? value: null}
+			disabled={disabled}
 		/>
 	</ThemeProvider>
   )

@@ -1,10 +1,10 @@
 import React from 'react';
 import { Container } from './styles';
 import { Navbar } from '../../packages/components';
-import { Box,Button } from '../../packages/ui';
+import { Box,Button, Dropdown } from '../../packages/ui';
 
 const DemoNavbar = () => {
-	const theme = [ 'primary' , 'secondary', 'warning', 'error', 'black'];
+	const theme = [ 'primary'];
 	return (
 		<Container>
 			<Box width="100%">
@@ -25,6 +25,18 @@ const DemoNavbar = () => {
 						<Button themeType={item}>About</Button>
 						<Button themeType={item}>Gallery</Button>
 						<Button themeType={item}>Profile</Button>
+					</Navbar>
+				))}
+			</Box>
+			<Box width="100%">
+				<h3>Navbar with same themeType Buttons </h3>
+				{theme.map(item => (
+					<Navbar themeType={item} heading="Heading">
+						<Dropdown header="Profile" themeType={item}>
+							 <p>Name</p>
+							 <p>Orders</p>
+							 <Button themeType={item}>Logout</Button>
+						</Dropdown>
 					</Navbar>
 				))}
 			</Box>

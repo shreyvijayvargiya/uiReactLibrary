@@ -35,7 +35,7 @@ return (
 						<Card 
 							header="Hi I am header " 
 							headerFooterThemeType={item} 
-							width="15%" 
+							width="20%" 
 						/>
 					))}
 				</Grid>
@@ -48,7 +48,7 @@ return (
 						<Card 
 							footer="Hi I am Footer"
 							headerFooterThemeType={item}
-							width="15%" 
+							width="20%" 
 						/>
 					))}
 				</Grid>
@@ -58,7 +58,7 @@ return (
 				<br />
 				<Grid layout="flex  row space-around center">
 					{theme.map(item => (
-						<Card width="15%" themeType={item}>
+						<Card width="20%" themeType={item}>
 							<p>Card with Chidlren One</p>
 							<p>Card with Children Two</p>
 							<p>Card with Chidlren three</p>
@@ -74,7 +74,7 @@ return (
 					{theme.map(item => (
 						<Card 
 							body={body()}
-							width="15%" 
+							width="20%" 
 						/>
 					))}
 				</Grid>
