@@ -8,7 +8,10 @@ export const Container = styled.div`
 		if(props.buttonType === 'link'){
 			return `${props.theme[props.themeType]}`;
 		}
-		return'white';
+		if(props.themeType === 'black'){
+			return 'white'
+		}
+		return 'black';
 	}};
 	cursor: pointer;
 	border-radius: 4px;

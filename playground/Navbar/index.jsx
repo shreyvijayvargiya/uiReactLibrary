@@ -4,20 +4,10 @@ import { Navbar } from '../../packages/components';
 import { Box,Button, Dropdown } from '../../packages/ui';
 
 const DemoNavbar = () => {
-	const theme = [ 'primary'];
+	const theme = [ 'primary', 'secondary', 'error', 'default', 'warning'];
 	return (
 		<Container>
-			<Box width="100%">
-				<h3>Navbar with Black Buttons </h3>
-				{theme.map(item => (
-					<Navbar themeType={item} heading="Heading">
-						<Button themeType="black">About</Button>
-						<Button themeType="black">Gallery</Button>
-						<Button themeType="black">Profile</Button>
-					</Navbar>
-				))}
-			</Box>
-			<br /> <br />
+			<br />
 			<Box width="100%">
 				<h3>Navbar with same themeType Buttons </h3>
 				{theme.map(item => (
@@ -28,6 +18,18 @@ const DemoNavbar = () => {
 					</Navbar>
 				))}
 			</Box>
+			<br /><br />
+			<Box width="100%">
+				<h3>Navbar with Black Buttons </h3>
+				{theme.map(item => (
+					<Navbar themeType={item} heading="Heading">
+						<Button themeType="black">About</Button>
+						<Button themeType="black">Gallery</Button>
+						<Button themeType="black">Profile</Button>
+					</Navbar>
+				))}
+			</Box>
+			<br /><br />
 			<Box width="100%">
 				<h3>Navbar with same themeType Buttons </h3>
 				{theme.map(item => (
