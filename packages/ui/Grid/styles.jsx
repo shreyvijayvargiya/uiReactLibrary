@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div `
 	width: 100%;
 	height: 100%;
-	margin: 4px;
+
 	padding: 4px;
 	&  * > {
 		margin: 0px 2px;

@@ -24,4 +24,4 @@ export const theme = {
 	fs8: "48px",
 	content: 'Courier',
 	heading: 'Bookman',
-}
+};

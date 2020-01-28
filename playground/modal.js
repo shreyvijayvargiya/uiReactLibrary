@@ -1,5 +1,5 @@
 import React from 'react';
-import DemoModal from './Modal/index';
+import { DemoModal } from './ui';
 import { storiesOf } from '@storybook/react';
 
 storiesOf('UI', module).add('Modal', () => <DemoModal />);

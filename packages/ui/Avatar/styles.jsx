@@ -1,8 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-	
-	border-radius: 60%;
+	border-radius: 50%;
 	width: fit-content;
 	height: fit-content;
 	font-weight: bold;
@@ -10,7 +9,8 @@ export const Container = styled.div`
 	border: 1px solid ${props => props.theme.background};
 	div {
 		margin: auto;
-		padding: 10px;
+		padding: 15px;
 		vertical-align: middle;
-	}
+		horizontal-align: middle;
+	};
 `;
