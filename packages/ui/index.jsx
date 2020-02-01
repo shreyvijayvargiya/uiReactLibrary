@@ -6,6 +6,7 @@ export { default as Checkbox } from './Checkbox';
 export { default as Dropdown } from './Dropdown';
 export { default as Grid } from './Grid';
 export { default as Input } from './Input';
+export { default as Progressbar } from './Progressbar';
 export { default as Radio } from './Radio';
 export { default as Tabs } from './Tabs';
 export { default as TabPanel } from './Tabs/TabPanel';

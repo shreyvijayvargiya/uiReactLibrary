@@ -9,3 +9,4 @@ export { default as DemoTabs } from './Tabs';
 export { default as DemoAvatar } from './Avatar';
 export { default as DemoDropdown } from './Dropdown';
 export { default as DemoModal } from './Modal';
+export { default as DemoProgressbar } from './Progressbar';
