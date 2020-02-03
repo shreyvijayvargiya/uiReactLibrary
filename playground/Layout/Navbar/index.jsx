@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container } from './styles';
-import { Navbar } from '../../packages/components';
-import { Box,Button, Dropdown } from '../../packages/ui';
+import { Navbar } from '../../../packages/components';
+import { Box,Button, Dropdown } from '../../../packages/ui';
 import { LivePreview, LiveEditor, LiveError, LiveProvider} from 'react-live';
 
 const theme = [ 'primary', 'secondary', 'error', 'default', 'warning'];
