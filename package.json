@@ -4,7 +4,7 @@
   "description": "React UI Library",
   "main": "pages/index.js",
   "scripts": {
-    "test": "test",
+	"test": "test",
     "ui": "cd ui start-storybook",
 	"storybook": "start-storybook ",
 	"build-storybook": "build-storybook -c .storybook -o .out"
