@@ -1,6 +1,6 @@
-React UI Library
+<h1>React UI Library </h1>
 
-<h1>How to use ?</h1>
+<h2>How to use ?</h2>
 <ol>
 	<li>Clone the repository</li>
 	<li>Run yarn install</li>
