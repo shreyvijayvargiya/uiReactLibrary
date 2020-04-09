@@ -17,15 +17,15 @@
 <h2>Demo</h2>
 <h4> Themes <h4>
 <p>Theme color and sizes are extensible to users requirements</p>
-<img src="./assets/theme.png" width="50%" height="50%" >
+<img src="./assets/theme.png" width="100%" height="50%" >
 
 <h3>Components<h3>
 
 <h4>Buttons</h4>
-<img src="./assets/button.png" width="50%" height="50%" >
+<img src="./assets/button.png" width="100%" height="50%" >
 
 <h3>Navbar<h4>
-<img src="./assets/navbar.png" width="50%" height="50%" >
+<img src="./assets/navbar.png" width="100%" height="50%" >
 
 <h2>How To contirbute ?</h2>
 <ol>
