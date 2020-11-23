@@ -11,6 +11,8 @@
 <ol>
 	<li>React JS</li>
 	<li>Storybook(For Demo )</li>
+	<li>Next JS </li>
+	<li>Styled Components </li>
 	<li>Babel</li>
 </ol>
 
